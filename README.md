@@ -11,3 +11,11 @@ This repository contains my practical work for game testing under Linux environm
 - **Severity:** Critical / Blocker
 - **Actual Result:** Game client disconnects with error: `CRITICAL NETWORK ERROR: Server database timeout. Code 500`.
 - **Expected Result:** Stable connection, database responds within normal time limits.
+- Database testing (`PostgreSQL`, `SQL`)
+
+## Practical Case: Bug Report #2
+- **Summary:** Character level drops instead of mana consumption when using 'Teleportation' skill.
+- **Severity:** Critical
+- **Actual Result:** Level decreased from 100 to 50.
+- **Expected Result:** Mana decreases by 50 points, level stays unchanged.
+
