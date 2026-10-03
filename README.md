@@ -18,4 +18,5 @@ This repository contains my practical work for game testing under Linux environm
 - **Severity:** Critical
 - **Actual Result:** Level decreased from 100 to 50.
 - **Expected Result:** Mana decreases by 50 points, level stays unchanged.
+- Network simulation and traffic shaping (`tc`, `netem` for latency and packet loss simulation)
 
